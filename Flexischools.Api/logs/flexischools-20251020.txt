@@ -1,0 +1,6 @@
+2025-10-20 15:32:51.533 +05:00 [INF] Starting Flexischools API
+2025-10-20 15:33:24.615 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-10-20 15:33:24.976 +05:00 [INF] Retrieving order with ID 1
+2025-10-20 15:33:24.996 +05:00 [INF] Retrieving order by ID 1
+2025-10-20 15:33:26.760 +05:00 [INF] Order retrieved successfully. Status: "Placed", Total: ¤10.50
+2025-10-20 15:33:26.838 +05:00 [INF] Order retrieved successfully

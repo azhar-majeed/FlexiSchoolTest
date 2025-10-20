@@ -1,0 +1,178 @@
+2025-10-18 19:54:02.196 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:03.002 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-18 19:54:03.305 +02:00 [INF] Received order creation request
+2025-10-18 19:54:03.309 +02:00 [INF] Starting order creation process
+2025-10-18 19:54:03.310 +02:00 [INF] Order request created with 1 items
+2025-10-18 19:54:03.352 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+2025-10-18 19:54:03.365 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+   at Flexischools.Api.Controllers.OrdersController.CreateOrder(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Api\Controllers\OrdersController.cs:line 62
+2025-10-18 19:54:03.593 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:03.652 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-18 19:54:03.661 +02:00 [INF] Received order creation request
+2025-10-18 19:54:03.662 +02:00 [INF] Starting order creation process
+2025-10-18 19:54:03.663 +02:00 [INF] Order request created with 1 items
+2025-10-18 19:54:03.664 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+2025-10-18 19:54:03.665 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+   at Flexischools.Api.Controllers.OrdersController.CreateOrder(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Api\Controllers\OrdersController.cs:line 62
+2025-10-18 19:54:03.689 +02:00 [INF] Received order creation request
+2025-10-18 19:54:03.690 +02:00 [INF] Starting order creation process
+2025-10-18 19:54:03.690 +02:00 [INF] Order request created with 1 items
+2025-10-18 19:54:03.690 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+2025-10-18 19:54:03.691 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+   at Flexischools.Api.Controllers.OrdersController.CreateOrder(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Api\Controllers\OrdersController.cs:line 62
+2025-10-18 19:54:03.715 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:03.733 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-18 19:54:03.739 +02:00 [INF] Received order creation request
+2025-10-18 19:54:03.739 +02:00 [INF] Starting order creation process
+2025-10-18 19:54:03.739 +02:00 [INF] Order request created with 1 items
+2025-10-18 19:54:03.740 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+2025-10-18 19:54:03.741 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+   at Flexischools.Api.Controllers.OrdersController.CreateOrder(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Api\Controllers\OrdersController.cs:line 62
+2025-10-18 19:54:03.760 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:03.781 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-18 19:54:03.789 +02:00 [INF] Received order creation request
+2025-10-18 19:54:03.790 +02:00 [INF] Starting order creation process
+2025-10-18 19:54:03.790 +02:00 [INF] Order request created with 1 items
+2025-10-18 19:54:03.791 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+2025-10-18 19:54:03.791 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+   at Flexischools.Api.Controllers.OrdersController.CreateOrder(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Api\Controllers\OrdersController.cs:line 62
+2025-10-18 19:54:03.811 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:03.830 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-18 19:54:03.835 +02:00 [INF] Received order creation request
+2025-10-18 19:54:03.836 +02:00 [INF] Starting order creation process
+2025-10-18 19:54:03.836 +02:00 [INF] Order request created with 1 items
+2025-10-18 19:54:03.837 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+2025-10-18 19:54:03.837 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+   at Flexischools.Api.Controllers.OrdersController.CreateOrder(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Api\Controllers\OrdersController.cs:line 62
+2025-10-18 19:54:03.856 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:03.878 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-18 19:54:03.883 +02:00 [INF] Retrieving order with ID 99999
+2025-10-18 19:54:03.886 +02:00 [INF] Retrieving order by ID 99999
+2025-10-18 19:54:04.123 +02:00 [WRN] Order with ID 99999 not found
+2025-10-18 19:54:04.123 +02:00 [WRN] Order with ID 99999 not found
+2025-10-18 19:54:04.152 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:04.175 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-18 19:54:04.180 +02:00 [INF] Received order creation request
+2025-10-18 19:54:04.181 +02:00 [INF] Starting order creation process
+2025-10-18 19:54:04.181 +02:00 [INF] Order request created with 1 items
+2025-10-18 19:54:04.182 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+2025-10-18 19:54:04.183 +02:00 [ERR] Unexpected error occurred during order creation
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Database.Transaction.TransactionIgnoredWarning': Transactions are not supported by the in-memory store. See https://go.microsoft.com/fwlink/?LinkId=800142 This exception can be suppressed or logged by passing event ID 'InMemoryEventId.TransactionIgnoredWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, Exception exception)
+   at Microsoft.EntityFrameworkCore.InMemory.Internal.InMemoryLoggerExtensions.TransactionIgnoredWarning(IDiagnosticsLogger`1 diagnostics)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTransactionManager.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Flexischools.Infrastructure.Repositories.UnitOfWork.BeginTransactionAsync() in E:\FlexiSchoolTest\Flexischools.Infrastructure\Repositories\UnitOfWork.cs:line 44
+   at Flexischools.Application.Services.OrderService.CreateOrderAsync(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Application\Services\OrderService.cs:line 24
+   at Flexischools.Application.Handlers.CreateOrderCommandHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in E:\FlexiSchoolTest\Flexischools.Application\Handlers\CreateOrderCommandHandler.cs:line 54
+   at Flexischools.Api.Controllers.OrdersController.CreateOrder(CreateOrderRequest request) in E:\FlexiSchoolTest\Flexischools.Api\Controllers\OrdersController.cs:line 62
+2025-10-18 19:54:04.191 +02:00 [INF] Retrieving order with ID 0
+2025-10-18 19:54:04.192 +02:00 [INF] Retrieving order by ID 0
+2025-10-18 19:54:04.196 +02:00 [WRN] Order with ID 0 not found
+2025-10-18 19:54:04.196 +02:00 [WRN] Order with ID 0 not found
+2025-10-18 19:54:04.257 +02:00 [INF] Starting Flexischools API
+2025-10-18 19:54:04.275 +02:00 [WRN] Failed to determine the https port for redirect.

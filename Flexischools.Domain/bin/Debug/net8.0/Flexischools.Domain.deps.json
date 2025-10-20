@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Flexischools.Domain/1.0.0": {
+        "runtime": {
+          "Flexischools.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flexischools.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
